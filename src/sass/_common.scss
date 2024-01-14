@@ -1,1 +1,34 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#search-box {
+  margin: 20px;
+  padding: 10px;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+}
+
+#results-container {
+  margin: 20px;
+  padding: 10px;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.country-flag {
+  width: 20px; /* Ustaw szerokość flagi */
+  height: 15px; /* Ustaw wysokość flagi */
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.country-name {
+  font-size: 14px; /* Ustaw mniejszy rozmiar tekstu dla nazwy kraju */
+}

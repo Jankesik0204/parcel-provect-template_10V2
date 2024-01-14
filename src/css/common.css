@@ -1,0 +1,72 @@
+/* common.css */
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+#search-box {
+  width: auto;
+  max-width: 600px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #000;
+}
+
+#results-container {
+  width: 80%;
+  margin-top: 20px;
+}
+
+/* Style dla listy krajów (od 2 do 10) */
+.country-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px; /* Odstępy między wynikami */
+}
+
+.country-flag-small {
+  width: 20px; /* Szerokość flagi dla listy krajów */
+  height: auto; /* Wysokość flagi - zachowane proporcje */
+  margin-right: 10px; /* Odstęp między flagą a nazwą kraju */
+}
+
+.country-name-small {
+  font-size: 1em; /* Rozmiar czcionki dla nazwy kraju */
+  font-weight: normal; /* Usunięcie pogrubienia */
+  margin-right: 10px; /* Odstęp po prawej stronie nazwy */
+}
+
+/* Style dla pojedynczego kraju */
+.country-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.country-flag-large {
+  width: 240px; /* Zwiększona szerokość flagi dla pojedynczego kraju */
+  height: auto; /* Proporcjonalna wysokość flagi dla pojedynczego kraju */
+  margin-bottom: 20px; /* Odstęp między flagą a informacjami o kraju */
+}
+
+.country-name-large {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.country-detail-info {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
+}
